@@ -1,17 +1,17 @@
-# 🤖 Discord Bot — Thời tiết, Tỷ giá & Tin tức IT
+# Discord Bot — Thời tiết, Tỷ giá & Tin tức IT
 
 Bot Discord đa chức năng hỗ trợ tra cứu **thời tiết**, **tỷ giá tiền tệ**, và **tin tức công nghệ** — tích hợp cơ sở dữ liệu **Oracle 23ai** để lưu trữ lịch sử và tạo biểu đồ phân tích.
 
-## ✨ Tính năng chính
+## Tính năng chính
 
-- 🌦️ **Thời tiết** — Tra cứu real-time & dự báo 24h với biểu đồ nhiệt độ/độ ẩm
-- 💱 **Tỷ giá** — Xem tỷ giá, quy đổi tiền tệ, thống kê & biểu đồ lịch sử
-- 📰 **Tin tức IT** — Tin công nghệ, AI/ML, bảo mật từ các nguồn uy tín
-- ⏰ **Báo cáo tự động** — Tổng hợp thông tin gửi mỗi sáng 8h
-- 📊 **Biểu đồ** — Visualization dữ liệu lịch sử với Matplotlib (dark theme)
-- 🗄️ **Lưu trữ** — Oracle 23ai database với async connection pool
+- **Thời tiết** — Tra cứu real-time & dự báo 24h với biểu đồ nhiệt độ/độ ẩm
+- **Tỷ giá** — Xem tỷ giá, quy đổi tiền tệ, thống kê & biểu đồ lịch sử
+- **Tin tức IT** — Tin công nghệ, AI/ML, bảo mật từ các nguồn uy tín
+- **Báo cáo tự động** — Tổng hợp thông tin gửi mỗi sáng 8h
+- **Biểu đồ** — Visualization dữ liệu lịch sử với Matplotlib (dark theme)
+- **Lưu trữ** — Oracle 23ai database với async connection pool
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Công nghệ | Mục đích |
 |-----------|----------|
@@ -23,7 +23,7 @@ Bot Discord đa chức năng hỗ trợ tra cứu **thời tiết**, **tỷ giá
 | **Matplotlib** | Biểu đồ & visualization |
 | **Docker** | Containerization |
 
-## 📁 Cấu trúc Project
+## Cấu trúc Project
 
 ```
 bot_chat_discord/
@@ -61,7 +61,7 @@ bot_chat_discord/
     └── test_cache.py
 ```
 
-## 📋 Danh sách Slash Commands
+## Danh sách Slash Commands
 
 | Command | Mô tả |
 |---------|--------|
@@ -78,7 +78,7 @@ bot_chat_discord/
 | `/dbping` | Kiểm tra kết nối Oracle DB |
 | `/reportnow` | Gửi báo cáo tổng hợp ngay lập tức |
 
-## ⚡ Cài đặt & Chạy
+## Cài đặt & Chạy
 
 ### Yêu cầu
 - Python 3.10+
@@ -126,12 +126,9 @@ pip install pytest
 pytest tests/ -v
 ```
 
-## 🔗 Nguồn API
+## Nguồn API
 
 - [OpenWeatherMap API](https://openweathermap.org/api) — Dữ liệu thời tiết
 - [ExchangeRate-API](https://www.exchangerate-api.com/) — Tỷ giá tiền tệ
 - [NewsAPI](https://newsapi.org/) — Tin tức công nghệ
 
-## 📄 License
-
-MIT License
