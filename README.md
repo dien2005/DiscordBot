@@ -4,12 +4,12 @@ Bot Discord đa chức năng hỗ trợ tra cứu **thời tiết**, **tỷ giá
 
 ## Tính năng chính
 
-- **Thời tiết** — Tra cứu real-time & dự báo 24h với biểu đồ nhiệt độ/độ ẩm
-- **Tỷ giá** — Xem tỷ giá, quy đổi tiền tệ, thống kê & biểu đồ lịch sử
-- **Tin tức IT** — Tin công nghệ, AI/ML, bảo mật từ các nguồn uy tín
-- **Báo cáo tự động** — Tổng hợp thông tin gửi mỗi sáng 8h
-- **Biểu đồ** — Visualization dữ liệu lịch sử với Matplotlib (dark theme)
-- **Lưu trữ** — Oracle 23ai database với async connection pool
+- **Thời tiết** - Tra cứu real-time & dự báo 24h với biểu đồ nhiệt độ/độ ẩm
+- **Tỷ giá** - Xem tỷ giá, quy đổi tiền tệ, thống kê & biểu đồ lịch sử
+- **Tin tức IT** - Tin công nghệ, AI/ML, bảo mật từ các nguồn uy tín
+- **Báo cáo tự động** - Tổng hợp thông tin gửi mỗi sáng 8h
+- **Biểu đồ** - Visualization dữ liệu lịch sử với Matplotlib (dark theme)
+- **Lưu trữ** - Oracle 23ai database với async connection pool
 
 ## Tech Stack
 
