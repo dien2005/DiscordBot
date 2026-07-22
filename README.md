@@ -128,7 +128,7 @@ pytest tests/ -v
 
 ## Nguồn API
 
-- [OpenWeatherMap API](https://openweathermap.org/api) — Dữ liệu thời tiết
-- [ExchangeRate-API](https://www.exchangerate-api.com/) — Tỷ giá tiền tệ
-- [NewsAPI](https://newsapi.org/) — Tin tức công nghệ
+- [OpenWeatherMap API](https://openweathermap.org/api) - Dữ liệu thời tiết
+- [ExchangeRate-API](https://www.exchangerate-api.com/) - Tỷ giá tiền tệ
+- [NewsAPI](https://newsapi.org/) - Tin tức công nghệ
 
