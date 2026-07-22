@@ -1,6 +1,6 @@
-# Discord Bot — Thời tiết, Tỷ giá & Tin tức IT
+# Discord Bot - Thời tiết, Tỷ giá & Tin tức IT
 
-Bot Discord đa chức năng hỗ trợ tra cứu **thời tiết**, **tỷ giá tiền tệ**, và **tin tức công nghệ** — tích hợp cơ sở dữ liệu **Oracle 23ai** để lưu trữ lịch sử và tạo biểu đồ phân tích.
+Bot Discord đa chức năng hỗ trợ tra cứu **thời tiết**, **tỷ giá tiền tệ**, và **tin tức công nghệ** - tích hợp cơ sở dữ liệu **Oracle 23ai** để lưu trữ lịch sử và tạo biểu đồ phân tích.
 
 ## Tính năng chính
 
