@@ -1,0 +1,24 @@
+services:
+  bot:
+    build: .
+    restart: always
+    env_file: .env
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - oracle-db
+
+  oracle-db:
+    image: gvenzl/oracle-free:23-slim
+    restart: always
+    environment:
+      - ORACLE_PASSWORD=oracle_password
+      - APP_USER=bot_user
+      - APP_USER_PASSWORD=bot_user
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle_data:/opt/oracle/oradata
+
+volumes:
+  oracle_data:
